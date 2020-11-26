@@ -4,13 +4,21 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Poppins-Regular';
+    box-sizing: border-box;
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
     color: initial;
 }
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
 /*================================== header =================================*/
-.header{
+.header {
     padding-top: 100px;
     min-height: 100vh;
     background: url(../img/header_bg.png);
@@ -18,36 +26,237 @@ a:hover{
     background-repeat: no-repeat;
     background-position: bottom;
 }
-.header_nav_link{
+
+.header_nav_link {
     margin-right: 30px;
 }
-.header_logo{
+
+.header_logo {
     font-family: 'Poppins-Bold';
-    color:#000;
+    color: #000;
     font-size: 30px;
 }
-.logo_span{
-    color:#fcae61;
+
+.logo_span {
+    color: #fcae61;
 }
-.header_nav_link{
+
+.header_nav_link {
     font-family: 'Poppins-Regular';
     color: #242f51;
 
 }
-.header_btn{
+
+.header_btn {
     font-family: 'Poppins-Bold';
+    color: white;
     padding: 20px 40px;
     background: #2500f9;
     border-radius: 25px;
-    color:white;
+
 }
-.header__content{
+
+.header__content {
     display: flex;
+    flex-direction: column;
+
 }
+
+.header_bottom {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header_bottom_content {
+    margin-bottom: 40px;
+}
+
+.header_top_text {
+    display: flex;
+    align-items: center;
+    background: #e2eaed;
+    border-radius: 20px;
+    width: 360px;
+    margin-bottom: 30px;
+}
+
+.click_icon {
+    padding: 10px;
+    background: #feaa25;
+    border-radius: 50%;
+}
+
+.header_clickMark_text {
+    padding-left: 10px;
+    font-family: 'Poppins-Regular';
+    color: #242f51;
+    font-size: 18px;
+}
+
+.header_bottom_title {
+    font-family: 'Poppins-SemiBold';
+    color: #242f51;
+    font-size: 60px;
+}
+
+.header_bottom_content {
+    font-family: 'Poppins-Regular';
+    color: #616368;
+    font-size: 18px;
+}
+
+.video_link {
+    font-family: 'Poppins-Regular';
+    color: #2500f9;
+    font-size: 16px;
+}
+
 /*================================== /header =================================*/
 
 /*================================== main =================================*/
+.main {
+    padding-top: 100px;
+}
 
+.companies {
+    margin-bottom: 190px;
+}
+
+.companies_title {
+    font-family: 'Poppins-Regular';
+    color: #242f51;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.companies_imgs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block {
+    margin-left: auto;
+    margin-right: 170px;
+}
+
+.appFeatures {
+    background: url(../img/apps_bg.png);
+    background-repeat: no-repeat;
+    background-position-y: -15px;
+    padding-bottom: 150px;
+}
+
+.appFeatures_title {
+    font-family: 'Poppins-SemiBold';
+    color: #242f51;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.app_Features_desc {
+    margin-bottom: 95px;
+}
+
+.appFeaturs_item {
+    padding-bottom: 66px;
+}
+
+.app_right_title {
+    font-family: 'Poppins-SemiBold';
+    color: #f55767;
+    font-size: 20px;
+}
+
+.proto {
+    color: #2563ff;
+}
+
+.vector {
+    color: #40975f;
+}
+
+.app_img {
+    margin-right: 30px;
+}
+
+.app_right_text {
+    font-family: 'Poppins-Regular';
+    color: #616368;
+    font-size: 16px;
+}
+
+.jeckpots{
+    margin-bottom: 115px;
+}
+.jeckpots_title {
+    font-family: 'Poppins-SemiBold';
+    color: #242f51;
+    font-size: 40px;
+    margin-right: 80px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.jeckpot_top{
+    margin-bottom: 116px;
+}
+.jeckpot_top_text{
+    font-family: 'Poppins-Regular';
+    color: #616368;
+    font-size: 16px;
+    margin-left: 77px;
+}
+.jeckpot_img{
+    margin-bottom: 34px;
+}
+.jeckpots_title::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 146px;
+    background: #b9b9b8;
+    right: -68px;
+    top:0;
+}
+.jeckpot_title{
+    font-family: 'Poppins-SemiBold';
+    color: #f55767;
+    font-size: 20px;
+}
+.network{
+    color: #2563ff;
+}
+.reward{
+    color: #40975f;
+}
+
+
+.integration{
+    margin-bottom: 140px;
+    background: url(../img/VectorSmartObject2.png);
+    background-repeat: no-repeat;
+    background-position-x: 150px;
+}
+.integration_content{
+    margin-right: 110px;
+    padding-bottom: 150px;
+}
+.integration_title{
+    font-family: 'Poppins-SemiBold';
+    color: #242f51;
+    font-size: 36px;
+    margin-bottom: 30px;
+    padding-top: 130px;
+}
+
+.integration_text{
+    font-family: 'Poppins-Regular';
+    color: #616368;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
 
 /*================================== /main =================================*/
 
