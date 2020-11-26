@@ -370,6 +370,49 @@ p {
     font-family: 'Poppins-Medium';
     color: #616368; 
 }
+
+
+.toggle_block{
+    
+}
+.toggle_item_left{
+    
+}
+.toggle_top{
+    
+}
+.toggle_price{
+    font-family: 'Poppins-SemiBold';
+    color: #242f51;
+    font-size: 60px;
+}
+.month{
+    font-family: 'Poppins-Bold';
+    color: white;
+    font-size: 16px;
+}
+.toggle_top_desc{
+    font-family: 'Poppins-Bold';
+    color: white;
+    font-size: 16px;
+}
+.toggle_top_text{
+    font-family: 'Poppins-Bold';
+    color: white;
+    font-size: 16px;
+}
+.toggle_bottom{
+    
+}
+.toggle_list{
+    
+}
+.toggle_list_item{
+    font-family: 'Poppins-Bold';
+    color: white;
+    font-size: 16px;
+}
+
 /*================================== /main =================================*/
 
 /*================================== footer =================================*/
