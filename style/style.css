@@ -188,9 +188,10 @@ p {
     font-size: 16px;
 }
 
-.jeckpots{
+.jeckpots {
     margin-bottom: 115px;
 }
+
 .jeckpots_title {
     font-family: 'Poppins-SemiBold';
     color: #242f51;
@@ -199,51 +200,60 @@ p {
     position: relative;
     margin-bottom: 20px;
 }
-.jeckpot_top{
+
+.jeckpot_top {
     margin-bottom: 116px;
 }
-.jeckpot_top_text{
+
+.jeckpot_top_text {
     font-family: 'Poppins-Regular';
     color: #616368;
     font-size: 16px;
     margin-left: 77px;
 }
-.jeckpot_img{
+
+.jeckpot_img {
     margin-bottom: 34px;
 }
-.jeckpots_title::after{
+
+.jeckpots_title::after {
     content: "";
     position: absolute;
     width: 1px;
     height: 146px;
     background: #b9b9b8;
     right: -68px;
-    top:0;
+    top: 0;
 }
-.jeckpot_title{
+
+.jeckpot_title {
     font-family: 'Poppins-SemiBold';
     color: #f55767;
     font-size: 20px;
 }
-.network{
+
+.network {
     color: #2563ff;
 }
-.reward{
+
+.reward {
     color: #40975f;
 }
 
 
-.integration{
+.integration {
     margin-bottom: 140px;
     background: url(../img/VectorSmartObject2.png);
     background-repeat: no-repeat;
     background-position-x: 150px;
 }
-.integration_content{
+
+.integration_content {
     margin-right: 110px;
     padding-bottom: 150px;
 }
-.integration_title{
+
+.integration_title {
     font-family: 'Poppins-SemiBold';
     color: #242f51;
     font-size: 36px;
@@ -251,13 +261,115 @@ p {
     padding-top: 130px;
 }
 
-.integration_text{
+.integration_text {
     font-family: 'Poppins-Regular';
     color: #616368;
     font-size: 16px;
     margin-bottom: 40px;
 }
 
+
+.app {
+    margin-bottom: 188px;
+    
+}
+
+.app_title {
+    font-family: 'Poppins-SemiBold';
+    color: #242f51;
+    font-size: 36px;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+.app_text {
+    font-family: 'Poppins-Regular';
+    color: #616368;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-bottom: 95px;
+}
+
+.app_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100%/3);
+}
+
+.app_item_title {
+    font-family: 'Poppins-SemiBold';
+    color: #242f51;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.app_item_text {
+    font-family: 'Poppins-Regular';
+    color: #616368;
+    font-size: 16px;
+}
+
+.app_item_img {
+    margin-bottom: 37px;
+}
+.features{
+    background: url(../img/planning_img.png);
+    background-repeat: no-repeat;
+    background-position-x: 1200px;
+    background-position-y: 32px;
+    margin-bottom: 175px;
+}
+.features_title{
+    margin: 0;
+    margin-bottom: 30px;
+    text-align-last: left;
+}
+.features_text{
+    margin: 0;
+    margin-bottom: 60px;
+    text-align: left;
+}
+.features_item{
+    align-items: flex-start;
+    margin-bottom: 62px;
+}
+.features_item_title{
+    text-align: left;
+}
+.features_item_text{
+    text-align: left;
+}
+.seaAll_btn{
+    margin-left: 30px;
+}
+
+
+.toggle__menu{
+    border: 2px solid #ebebeb;
+    border-radius: 25px;
+    width: 280px;
+    margin: 0 auto;
+    padding:2px;
+}
+.nav-pills .nav-link.active{
+    border-radius: 25px;
+}
+.nav-link{
+    padding:15px 34px;
+}
+.nav-link .active{
+    font-family: 'Poppins-Bold';
+    color: white;
+    font-size: 16px;
+}
+.nav-link{
+    font-family: 'Poppins-Medium';
+    color: #616368; 
+}
 /*================================== /main =================================*/
 
 /*================================== footer =================================*/
