@@ -258,6 +258,37 @@ p {
     margin-bottom: 40px;
 }
 
+
+.app{
+
+}
+.app_title{
+    font-family: 'Poppins-SemiBold';
+    color: #242f51;
+    font-size: 36px;
+    text-align: center;
+    width:40%;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+.app_text{
+    font-family: 'Poppins-Regular';
+    color: #616368;
+    font-size: 16px;
+
+}
+
+
+.app_item_title{
+    font-family: 'Poppins-SemiBold';
+    color: #242f51;
+    font-size: 20px;
+}
+.app_item_text{
+    font-family: 'Poppins-Regular';
+    color: #616368;
+    font-size: 16px;
+}
 /*================================== /main =================================*/
 
 /*================================== footer =================================*/
