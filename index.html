@@ -9,15 +9,61 @@
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="fontawesomePRO/css/all.min.css">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="media/media.css">
 </head>
 
 <body>
+    
+    
+    <header class="header" id="header_scroll">
+        <nav class="header_nav ">
+          <div class="container">
+            <div class="header__content_top d-flex flex-wrap align-items-center justify-content-between">
+              <div href="#!" class="header_burger">
+                <span></span>
+              </div>
+              <div class="logo d-flex align-items-center justify-content-center mb-0 col-lg-3 col-sm-5 col-5">
+                <a href="#" class="header_logo"><span class="logo_span">App</span>Lab</a>
+              </div>
+              <ul class="row justify-content-between align-items-center header_list mb-0 col-sm-12 col-lg-9">
+                <li><a class="header_nav_link" href="#">Home</a></li>
+                <li><a class="header_nav_link" href="#">Key features</a></li>
+                <li><a class="header_nav_link" href="#">Pricing </a></li>
+                <li><a class="header_nav_link" href="#">Testiminial</a></li>
+                <li><a class="header_nav_link" href="#">FAQ</a></li>
+                <li><a class="header_nav_link header_btn" href="#">Try for free</a></li>
+            </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="header_bottom container">
+            <div class="header_bottom_left">
+                <div class="header_top">
+                    <div class="header_top_text">
+                        <img src="img/clickMark_icon.png" alt="" class="click_icon">
+                        <p class="header_clickMark_text">#1 Editiors Choice App of 2020</p>
+
+                    </div>
+                    <h1 class="header_bottom_title">Best app for your
+                        modern lifestyle</h1>
+                    <p class="header_bottom_content">Increase productivity with a simple to-do app. app for
+                        managing your personal budgets.</p>
+                    <a class="header_nav_link header_btn" href="#">Try for free</a>
+                    <a href="#" class="video_link">Watch demo video</a>
+                </div>
+            </div>
+            <img src="img/header_img.png" class="header_img" alt="">
+        </div>
+        <a href="#header_scroll" class="scroll_top_button"><i class="far fa-arrow-alt-to-top scroll_icon"></i></a>
+      </header>
+    <!--===========================-->
+<!-- 
     <header class="header">
         <div class="container">
             <div class="header__content">
                 <nav class="header_nav row justify-content-between align-items-center">
                     <a href="#" class="header_logo"><span class="logo_span">App</span>Lab</a>
-                    <ul class="row justify-content-between mb-0">
+                    <ul class="row justify-content-between align-items-center mb-0">
                         <li><a class="header_nav_link" href="#">Home</a></li>
                         <li><a class="header_nav_link" href="#">Key features</a></li>
                         <li><a class="header_nav_link" href="#">Pricing </a></li>
@@ -46,11 +92,13 @@
                 </div>
             </div>
         </div>
-    </header>
+    </header> 
+
+-->
     <main class="main">
         <section class="companies container">
             <h2 class="companies_title">Trusted by companies like</h2>
-            <div class="companies_imgs col-10 m-auto">
+            <div class="companies_imgs col-xl-10 col-sm-12 m-auto col-12">
                 <img src="img/company_logo1.png" alt="" class="company_logo">
                 <img src="img/company_logo2.png" alt="" class="company_logo">
                 <img src="img/company_logo3.png" alt="" class="company_logo">
@@ -60,7 +108,7 @@
         </section>
         <section class="appFeatures">
             <div class="container">
-                <div class="block col-5 ">
+                <div class="block col-lg-5 col-md-7 col-sm-10 col-12">
                     <h1 class="appFeatures_title">Awesome apps
                         features</h1>
                     <div class="app_Features_desc">Increase productivity with a simple to-do app. app for
@@ -98,11 +146,11 @@
             </div>
         </section>
         <section class="jeckpots container">
-            <div class="jeckpot_top d-flex align-items-center">
-                <h1 class="jeckpots_title col-5">Smart jackpots that
+            <div class="jeckpot_top d-flex align-items-center flex-wrap">
+                <h1 class="jeckpots_title col-lg-6 col-sm-12">Smart jackpots that
                     you may love this
                     anytime & anywhere</h1>
-                <p class="jeckpot_top_text col-4">The rise of mobile devices transforms the way we
+                <p class="jeckpot_top_text col-lg-4 col-sm-12">The rise of mobile devices transforms the way we
                     consume information entirely and the world's most
                     elevant channels such as Facebook.</p>
             </div>
@@ -132,7 +180,7 @@
         </section>
         <section class="integration">
             <div class="container">
-                <div class="integration_content col-4 ml-auto">
+                <div class="integration_content col-xl-4 col-md-6 ml-auto">
                     <h1 class="integration_title">Designed & built by
                         the latest code
                         integration</h1>
@@ -146,48 +194,49 @@
         </section>
 
         <section class="app container">
-            <h1 class="app_title">Why you should choose
+            <h1 class="app_title col-lg-5 col-sm-8">Why you should choose
                 our app</h1>
-            <div class="app_text col-8 text-center">The rise of mobile devices transforms the way we consume information
+            <div class="app_text col-lg-8 col-sm-12 text-center">The rise of mobile devices transforms the way we
+                consume information
                 entirely
                 and the world's most elevant channels such as Facebook.</div>
-            <div class="app_cards d-flex flex-wrap col-10 m-auto justify-content-between">
-                <div class="app_item">
+            <div class="app_cards d-flex flex-wrap col-lg-10 col-sm-12 m-auto justify-content-between">
+                <div class="app_item col-4">
                     <img src="img/appDev_icon.png" class="app_item_img" alt="">
                     <h2 class="app_item_title">App Development</h2>
                     <p class="app_item_text">Get your blood tests delivered at
                         home collect a sample from the
                         news your blood tests.</p>
                 </div>
-                <div class="app_item">
+                <div class="app_item col-4">
                     <img src="img/award10_icon.png" class="app_item_img" alt="">
                     <h2 class="app_item_title">10 Times Award</h2>
                     <p class="app_item_text">Get your blood tests delivered at
                         home collect a sample from the
                         news your blood tests.</p>
                 </div>
-                <div class="app_item">
+                <div class="app_item col-4">
                     <img src="img/cloudStorage_icon.png" class="app_item_img" alt="">
                     <h2 class="app_item_title">Cloud Storage</h2>
                     <p class="app_item_text">Get your blood tests delivered at
                         home collect a sample from the
                         news your blood tests.</p>
                 </div>
-                <div class="app_item">
+                <div class="app_item col-4">
                     <img src="img/customization_icon.png" class="app_item_img" alt="">
                     <h2 class="app_item_title">Customization</h2>
                     <p class="app_item_text">Get your blood tests delivered at
                         home collect a sample from the
                         news your blood tests.</p>
                 </div>
-                <div class="app_item">
+                <div class="app_item col-4">
                     <img src="img/uxPlanning_icon.png" class="app_item_img" alt="">
                     <h2 class="app_item_title">UX Planning</h2>
                     <p class="app_item_text">Get your blood tests delivered at
                         home collect a sample from the
                         news your blood tests.</p>
                 </div>
-                <div class="app_item">
+                <div class="app_item col-4">
                     <img src="img/customerService_icon.png" class="app_item_img" alt="">
                     <h2 class="app_item_title">Customer Support</h2>
                     <p class="app_item_text">Get your blood tests delivered at
@@ -199,11 +248,11 @@
 
         <section class="features">
             <div class="container">
-                <h1 class="app_title features_title col-5">Ultimate features
+                <h1 class="app_title features_title col-lg-5 col-sm-7">Ultimate features
                     that we built</h1>
-                <p class="app_text features_text col-5">The rise of mobile devices transforms the way we
+                <p class="app_text features_text col-lg-5 col-sm-7">The rise of mobile devices transforms the way we
                     consume information entirely.</p>
-                <div class="features_cards d-flex flex-wrap col-7">
+                <div class="features_cards d-flex flex-wrap col-lg-7 col-sm-10">
                     <div class="app_item features_item col-6">
                         <img src="img/appDev_icon.png" class="app_item_img" alt="">
                         <h2 class="app_item_title features_item_title">App Development</h2>
@@ -237,7 +286,7 @@
 
         <section class="prices">
             <div class="container">
-                <div class="integration_content col-7 m-auto text-center">
+                <div class="integration_content col-lg-7 col-sm-10 m-auto text-center">
                     <h1 class="integration_title">Get awesome features, without
                         extra charges</h1>
                     <p class="integration_text">The rise of mobile devices transforms the way we consume information
@@ -258,7 +307,7 @@
                 <div class="tab-content" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
                         aria-labelledby="pills-home-tab">
-                        <div class="toggle_block col-7 m-auto">
+                        <div class="toggle_block col-xl-7 col-lg-10 col-sm-12 m-auto">
                             <div class="toggle_item_left col-6">
                                 <div class="toggle_top">
                                     <h1 class="toggle_price">$0 <span class="month">/month</span> </h1>
@@ -346,7 +395,7 @@
 
         <section class="clients">
             <div class="container">
-                <div class="clients_content col-7 ml-auto">
+                <div class="clients_content col-xl-7 col-sm-10 ml-auto">
                     <h1 class="clients_title ">Meet Client Satisfaction
                         by using product</h1>
                     <p class="clients_desc">The rise of mobile devices transforms the way we consume.
@@ -365,7 +414,7 @@
                         real-time will have multiple touchpoints for offshoring.</p>
 
                     <div class="clients_carousel">
-                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade carousel_content" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <div class="carousel__item">
@@ -409,7 +458,7 @@
                                     data-slide="prev">
                                     <i class="far fa-long-arrow-left control__icon"></i>
                                 </a>
-                                <a class="carousel-control-next control_next" href="#carouselExampleFade" role="button"
+                                <a class="carousel-control-next control__next" href="#carouselExampleFade" role="button"
                                     data-slide="next">
                                     <i class="far fa-long-arrow-right control__icon"></i>
                                 </a>
@@ -578,7 +627,7 @@
             <a href="" class="links"><i class="fas fa-hashtag footer__icon"></i></a>
             <a href="" class="links"><i class="fab fa-github-square footer__icon"></i></a>
         </div>
-        
+
         <p class="footer_rights">
             Copyright© Arifur Rahman Tushar 2019. All rights reserved
         </p>

@@ -1,0 +1,108 @@
+@media(max-width: 1200px){
+    .appFeatures::after{
+        opacity: 0.5;
+    }
+    .integration::after{
+     opacity: 0.5;   
+    }
+    .features::after {
+        opacity: 0.3;
+    }
+    .features{
+        margin-bottom: 100px;
+    }
+    .integration_title{
+        padding-top: 100px;
+    }
+    .integration_content {
+        padding-bottom: 100px;
+    }
+    .jeckpots_title {
+        margin-right: 20px;
+        padding-right: 20px;
+    }
+    
+    .clients::after {
+        opacity: 0.5;
+    }
+.header_bottom_title{
+    font-size: 35px;
+}
+}
+
+@media(max-width: 992px){
+    .header{
+        padding-top: 50px;
+    }
+    .logo{
+        margin: 0 auto;
+    }
+    .jeckpots_title {
+        margin-right: 0;
+        padding-right: 0;
+        border: none;
+        text-align: center;
+    }
+    .jeckpot_top_text{
+        text-align: center;
+    }
+    .clients::after {
+        opacity: 0.3;
+    }
+    
+    .header_nav_link{
+        margin-right: 15px;
+    }
+    .header_img{
+        display: none;
+    }
+}
+
+@media(max-width: 768px){
+     .companies{
+         margin-bottom: 80px;
+     }
+    .main{
+        padding-top: 50px;
+    }
+    .companies_title{
+     margin-bottom: 20px;   
+    }
+    .header{
+        padding-top: 20px;
+    }
+    .header_nav{
+        padding-top: 10px;
+    }
+    .header_burger {
+        display: block;
+    }
+
+    .logo_text {
+        display: none;
+    }
+
+    .header__content_top {
+        margin-bottom: 50px;
+    }
+
+    .search_icon {
+        display: block;
+    }
+
+    .header_list {
+        position: absolute;
+        left: 200%;
+        top: 100%;
+    }
+
+    .list_link_last {
+        display: none;
+    }
+
+}
+
+@media(max-width: 576px){
+    
+}
+
