@@ -517,18 +517,20 @@ p {
 
 .toggle_block {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0;
 }
 
 .toggle_item_left {
     box-shadow: 0px 50px 20px 11px rgb(0 0 0 / 6%);
     border-radius: 10px;
-    padding: 0;
     padding-bottom: 25px;
-    margin-right: 20px;
 }
-
+.toggle_item_right {
+    border: 2px solid #ebebeb;
+}
 .toggle_top {
     padding-top: 72px;
     text-align: center;
@@ -565,6 +567,7 @@ p {
 
 .toggle_bottom {}
 
+
 .toggle_list {
     padding: 15px 0;
 }
@@ -582,13 +585,6 @@ p {
     margin: 0 auto;
     width: 70%;
 
-}
-
-
-.toggle_item_right {
-    margin-left: 20px;
-    border: 2px solid #ebebeb;
-    padding: 0;
 }
 
 .toggle_trial {
@@ -682,31 +678,28 @@ p {
     font-size: 18px;
 }
 
-.carousel__controls{
+.carousel__controls {
     display: flex;
     justify-content: center;
     align-items: center;
     width: max-content;
 }
-.control__prev, .control__next{
+
+.control__prev,
+.control__next {
     position: static;
     display: block;
     padding: 0 15px;
     width: max-content;
 }
-/* .control__prev::after {
-    content: "";
-    width: 2px;
-    height: 26px;
-    background: #e7e7e7;
-    order: 2;
-} */
-.control__prev{
+
+.control__prev {
     border-right: 2px solid black;
     border-image: linear-gradient(to bottom, white, #e7e7e7, white);
     border-image-slice: 1;
 }
-.carousel_content{
+
+.carousel_content {
     display: flex;
     justify-content: space-between;
 }
@@ -833,7 +826,14 @@ p {
     padding-bottom: 105px;
     position: relative;
 }
-
+.download_btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.download_link{
+    display: block;
+}
 .download::after {
     content: "";
     position: absolute;
@@ -926,4 +926,8 @@ p {
     font-size: 14px;
 }
 
+
+.plus_icon{
+    margin-left: 30px;
+}
 /*================================== /footer =================================*/
