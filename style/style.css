@@ -807,7 +807,15 @@ p {
     transform: rotate(-45deg);
     transition: 0.5s;
 }
-
+.car_header_text{
+    font-family: 'Poppins-SemiBold';
+    color: #242f51;
+    font-size: 20px;
+    width: fit-content;
+}
+.btn-block{
+    padding: 0;
+}
 .plus_icon::after {
     content: "";
     position: absolute;
