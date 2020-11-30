@@ -21,3 +21,11 @@ burger_icon.addEventListener('click', function () {
 })
 
 /*================================= burger ======================================*/
+
+const click_icon = document.querySelector('.click_icon');
+const header_clickMark_text = document.querySelector('.header_clickMark_text');
+const header_top_text = document.querySelector('.header_top_text');
+click_icon.addEventListener('click',()=>{
+    click_icon.classList.toggle('clicked');
+
+})

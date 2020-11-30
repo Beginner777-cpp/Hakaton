@@ -165,11 +165,8 @@ p {
 
 .header_top_text {
     display: flex;
-    align-items: center;
-    background: #e2eaed;
-    border-radius: 20px;
-    width: 360px;
     margin-bottom: 30px;
+    border-radius: 20px;
 }
 
 .click_icon {
@@ -179,10 +176,18 @@ p {
 }
 
 .header_clickMark_text {
-    padding-left: 10px;
+    background: #e2eaed;
+    width: 360px;
     font-family: 'Poppins-Regular';
     color: #242f51;
     font-size: 18px;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: -20px;
+    padding-left: 25px;
+
 }
 
 .header_bottom_title {
@@ -929,5 +934,18 @@ p {
 
 .plus_icon{
     margin-left: 30px;
+}
+.header_top_text{
+    overflow: hidden;
+    position: relative;
+}
+.header_clickMark_text{
+    transition: 1s;
+}
+.click_icon{
+    z-index: 10;
+}
+.click_icon.clicked ~ .header_clickMark_text{
+    transform: translateX(-100%);
 }
 /*================================== /footer =================================*/

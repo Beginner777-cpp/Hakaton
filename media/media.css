@@ -41,6 +41,7 @@
     .download::after {
         opacity: 0.5;
     }
+
     .header {
         padding-top: 50px;
     }
@@ -77,9 +78,11 @@
     .carousel_content {
         flex-wrap: wrap;
     }
-    .carousel__controls{
+
+    .carousel__controls {
         width: 100%;
     }
+
     .companies {
         margin-bottom: 80px;
     }
@@ -135,53 +138,62 @@
     }
 
     .toggle__btn {
-    padding: 20px 10px;
+        padding: 20px 10px;
     }
 }
 
 @media(max-width: 576px) {
-    .header_bottom_title{
+    .header_bottom_title {
         font-size: 25px;
         text-align: center;
     }
-    .header_bottom_content{
+
+    .header_bottom_content {
         font-size: 15px;
         margin-bottom: 20px;
         text-align: center;
     }
-    .click_icon{
+
+    .click_icon {
         padding: 8px;
     }
-    .header_top_text{
+
+    .header_top_text {
         max-width: 320px;
         width: 100%;
     }
-    .header_clickMark_text{
+
+    .header_clickMark_text {
         font-size: 15px;
-        padding-left: 8px;
     }
-    .header_btn{
+
+    .header_btn {
         padding: 10px 20px;
     }
+
     .clients_title {
         width: 100%;
         text-align: center;
         font-size: 25px;
         margin-bottom: 15px;
     }
-    .clients_desc{
+
+    .clients_desc {
         width: 100%;
         font-size: 15px;
         margin-bottom: 15px;
     }
-    .clients_top_text{
+
+    .clients_top_text {
         font-size: 18px;
         margin-bottom: 15px;
     }
-    .clients_text{
+
+    .clients_text {
         margin-bottom: 20px;
         font-size: 13px;
     }
+
     .jeckpot_img {
         margin-bottom: 15px;
     }
@@ -226,21 +238,25 @@
     .toggle_item_right {
         margin: 0;
     }
-    .faq_title{
+
+    .faq_title {
         font-size: 25px;
         margin-bottom: 15px;
     }
+
     .faq_top_text {
         font-size: 15px;
         margin-bottom: 15px;
     }
-    .download_title{
+
+    .download_title {
         font-size: 25px;
         text-align: center;
         margin-bottom: 20px;
         padding-top: 20px;
     }
-    .download_text{
+
+    .download_text {
         text-align: center;
     }
 }
@@ -269,13 +285,16 @@
     .header_bottom {
         transition: all 1s ease 0s;
     }
-    .download_btns{
+
+    .download_btns {
         flex-direction: column;
     }
-    .googlePlay_icon{
+
+    .googlePlay_icon {
         margin: 0;
     }
-    .download_link{
+
+    .download_link {
         margin-bottom: 20px;
     }
 }
@@ -290,15 +309,18 @@
         max-width: 100%;
         /* flex: none; */
     }
-    .carousel__item{
+
+    .carousel__item {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
     }
-    .carousel_img{
+
+    .carousel_img {
         margin: 0;
     }
-    .carousel_desc{
+
+    .carousel_desc {
         width: 100%;
         text-align: center;
     }
@@ -307,55 +329,71 @@
         max-width: 300px;
     }
 
-    .app_right_title{
+    .app_right_title {
         font-size: 15px;
     }
-    .app_right_text{
+
+    .app_right_text {
         font-size: 13px;
     }
+
     .block {
         padding: 0;
     }
+
     .jeckpots_title {
         font-size: 25px;
     }
+
     .jeckpot_top {
         margin-bottom: 30px;
     }
-    .integration_title{
+
+    .integration_title {
         font-size: 25px;
         text-align: center;
     }
-    .integration_text{
+
+    .integration_text {
         font-size: 13px;
     }
-    .integration{
+
+    .integration {
         margin-bottom: 30px;
     }
+
     .app_title {
         font-size: 25px;
         margin-bottom: 20px;
     }
+
     .app_text {
         font-size: 13px;
         margin-bottom: 30px;
     }
-    .app_item_text{
+
+    .app_item_text {
         font-size: 13px;
     }
-    .toggle__menu{
+
+    .toggle__menu {
         justify-content: space-between;
         width: max-content;
     }
-    .nav-link{
+
+    .nav-link {
         padding: 10px 20px;
     }
 
-    .btn-block{
+    .btn-block {
         font-size: 15px;
     }
-    .card-body{
+
+    .card-body {
         font-size: 13px;
     }
 
+    .header_clickMark_text {
+        width: 100%;
+    }
 }
